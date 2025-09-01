@@ -26,7 +26,7 @@ OUTPUT_DIR = os.path.expanduser("~/Desktop/outputs_dr")
 # Parameter für die Analyse
 TOP_N = 50                   # Anzahl der häufigsten Wörter für Frequenzanalyse
 N_TOPICS = 8                 # Anzahl der Themen für LDA
-CHUNK_WORDS = 800            # Textsegmentierung für Topic Modeling
+CHUNK_WORDS = 100            # Textsegmentierung für Topic Modeling
 COOCCURRENCE_WINDOW = 2      # Fenstergröße für Kookkurrenzanalyse
 
 # Sicherstellen, dass der Ausgabepfad existiert
